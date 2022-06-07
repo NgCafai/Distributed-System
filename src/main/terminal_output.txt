@@ -1,0 +1,692 @@
+*** Cannot find timeout command; proceeding without timeouts.
+*** Starting wc test.
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:4, NReduce:10, NMap:0, FileName:"../pg-huckleberry_finn.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:3, NReduce:10, NMap:0, FileName:"../pg-grimm.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:5, NReduce:10, NMap:0, FileName:"../pg-metamorphosis.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:3, NReduce:10, NMap:0, FileName:"../pg-grimm.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:5, NReduce:10, NMap:0, FileName:"../pg-metamorphosis.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:4, NReduce:10, NMap:0, FileName:"../pg-huckleberry_finn.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:5, NReduce:10, NMap:0, FileName:"../pg-metamorphosis.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:6, NReduce:10, NMap:0, FileName:"../pg-sherlock_holmes.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:5, FileName:"../pg-metamorphosis.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:6, NReduce:10, NMap:0, FileName:"../pg-sherlock_holmes.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:3, NReduce:10, NMap:0, FileName:"../pg-grimm.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:2, NReduce:10, NMap:0, FileName:"../pg-frankenstein.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:3, FileName:"../pg-grimm.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:2, NReduce:10, NMap:0, FileName:"../pg-frankenstein.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:4, NReduce:10, NMap:0, FileName:"../pg-huckleberry_finn.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:7, NReduce:10, NMap:0, FileName:"../pg-tom_sawyer.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:4, FileName:"../pg-huckleberry_finn.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:7, NReduce:10, NMap:0, FileName:"../pg-tom_sawyer.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:6, NReduce:10, NMap:0, FileName:"../pg-sherlock_holmes.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:1, NReduce:10, NMap:0, FileName:"../pg-dorian_gray.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:6, FileName:"../pg-sherlock_holmes.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:1, NReduce:10, NMap:0, FileName:"../pg-dorian_gray.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:2, NReduce:10, NMap:0, FileName:"../pg-frankenstein.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:0, NReduce:10, NMap:0, FileName:"../pg-being_ernest.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:2, FileName:"../pg-frankenstein.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:0, NReduce:10, NMap:0, FileName:"../pg-being_ernest.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:7, NReduce:10, NMap:0, FileName:"../pg-tom_sawyer.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:7, FileName:"../pg-tom_sawyer.txt"}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+report a task: &mr.TaskReply{TaskType:0, TaskId:0, NReduce:10, NMap:0, FileName:"../pg-being_ernest.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:0, FileName:"../pg-being_ernest.txt"}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+report a task: &mr.TaskReply{TaskType:0, TaskId:1, NReduce:10, NMap:0, FileName:"../pg-dorian_gray.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:1, FileName:"../pg-dorian_gray.txt"}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:0, NReduce:10, NMap:8, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:0, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:1, NReduce:10, NMap:8, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:1, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:2, NReduce:10, NMap:8, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:2, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:0, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:3, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:3, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:1, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:4, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:1, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:4, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:3, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:5, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:3, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:5, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:4, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:6, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:4, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:6, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:2, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:7, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:2, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:7, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:5, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:8, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:5, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:8, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:7, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:9, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:7, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:9, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:8, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:8, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:6, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:6, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:9, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:9, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:3, TaskId:0, NReduce:0, NMap:0, FileName:""}
+all tasks have completed, now exit
+receive a task: mr.TaskReply{TaskType:3, TaskId:0, NReduce:0, NMap:0, FileName:""}
+all tasks have completed, now exit
+receive a task: mr.TaskReply{TaskType:3, TaskId:0, NReduce:0, NMap:0, FileName:""}
+all tasks have completed, now exit
+coordinator has finished
+--- wc test: PASS
+*** Starting indexer test.
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:2, NReduce:10, NMap:0, FileName:"../pg-frankenstein.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:3, NReduce:10, NMap:0, FileName:"../pg-grimm.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:3, NReduce:10, NMap:0, FileName:"../pg-grimm.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:2, NReduce:10, NMap:0, FileName:"../pg-frankenstein.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:3, NReduce:10, NMap:0, FileName:"../pg-grimm.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:0, NReduce:10, NMap:0, FileName:"../pg-being_ernest.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:3, FileName:"../pg-grimm.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:0, NReduce:10, NMap:0, FileName:"../pg-being_ernest.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:0, NReduce:10, NMap:0, FileName:"../pg-being_ernest.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:0, FileName:"../pg-being_ernest.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:7, NReduce:10, NMap:0, FileName:"../pg-tom_sawyer.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:7, NReduce:10, NMap:0, FileName:"../pg-tom_sawyer.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:2, NReduce:10, NMap:0, FileName:"../pg-frankenstein.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:1, NReduce:10, NMap:0, FileName:"../pg-dorian_gray.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:2, FileName:"../pg-frankenstein.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:1, NReduce:10, NMap:0, FileName:"../pg-dorian_gray.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:1, NReduce:10, NMap:0, FileName:"../pg-dorian_gray.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:4, NReduce:10, NMap:0, FileName:"../pg-huckleberry_finn.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:1, FileName:"../pg-dorian_gray.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:4, NReduce:10, NMap:0, FileName:"../pg-huckleberry_finn.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:7, NReduce:10, NMap:0, FileName:"../pg-tom_sawyer.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:5, NReduce:10, NMap:0, FileName:"../pg-metamorphosis.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:7, FileName:"../pg-tom_sawyer.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:5, NReduce:10, NMap:0, FileName:"../pg-metamorphosis.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:5, NReduce:10, NMap:0, FileName:"../pg-metamorphosis.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:6, NReduce:10, NMap:0, FileName:"../pg-sherlock_holmes.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:5, FileName:"../pg-metamorphosis.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:6, NReduce:10, NMap:0, FileName:"../pg-sherlock_holmes.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:4, NReduce:10, NMap:0, FileName:"../pg-huckleberry_finn.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:4, FileName:"../pg-huckleberry_finn.txt"}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+report a task: &mr.TaskReply{TaskType:0, TaskId:6, NReduce:10, NMap:0, FileName:"../pg-sherlock_holmes.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:6, FileName:"../pg-sherlock_holmes.txt"}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:0, NReduce:10, NMap:8, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:0, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:0, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:1, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:1, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:1, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:2, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:1, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:2, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:2, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:3, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:2, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:3, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:3, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:4, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:3, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:4, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:4, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:5, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:4, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:5, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:5, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:6, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:5, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:6, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:7, NReduce:10, NMap:8, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:7, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:6, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:8, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:6, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:8, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:7, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:9, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:7, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:9, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:8, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:8, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:9, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:9, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:3, TaskId:0, NReduce:0, NMap:0, FileName:""}
+all tasks have completed, now exit
+receive a task: mr.TaskReply{TaskType:3, TaskId:0, NReduce:0, NMap:0, FileName:""}
+all tasks have completed, now exit
+--- indexer test: PASS
+coordinator has finished
+*** Starting map parallelism test.
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:2, NReduce:10, NMap:0, FileName:"../pg-frankenstein.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:6, NReduce:10, NMap:0, FileName:"../pg-sherlock_holmes.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:6, NReduce:10, NMap:0, FileName:"../pg-sherlock_holmes.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:2, NReduce:10, NMap:0, FileName:"../pg-frankenstein.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:2, NReduce:10, NMap:0, FileName:"../pg-frankenstein.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:2, FileName:"../pg-frankenstein.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:7, NReduce:10, NMap:0, FileName:"../pg-tom_sawyer.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:7, NReduce:10, NMap:0, FileName:"../pg-tom_sawyer.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:6, NReduce:10, NMap:0, FileName:"../pg-sherlock_holmes.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:0, NReduce:10, NMap:0, FileName:"../pg-being_ernest.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:6, FileName:"../pg-sherlock_holmes.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:0, NReduce:10, NMap:0, FileName:"../pg-being_ernest.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:0, NReduce:10, NMap:0, FileName:"../pg-being_ernest.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:1, NReduce:10, NMap:0, FileName:"../pg-dorian_gray.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:0, FileName:"../pg-being_ernest.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:1, NReduce:10, NMap:0, FileName:"../pg-dorian_gray.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:7, NReduce:10, NMap:0, FileName:"../pg-tom_sawyer.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:3, NReduce:10, NMap:0, FileName:"../pg-grimm.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:7, FileName:"../pg-tom_sawyer.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:3, NReduce:10, NMap:0, FileName:"../pg-grimm.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:1, NReduce:10, NMap:0, FileName:"../pg-dorian_gray.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:4, NReduce:10, NMap:0, FileName:"../pg-huckleberry_finn.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:1, FileName:"../pg-dorian_gray.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:3, NReduce:10, NMap:0, FileName:"../pg-grimm.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:4, NReduce:10, NMap:0, FileName:"../pg-huckleberry_finn.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:5, NReduce:10, NMap:0, FileName:"../pg-metamorphosis.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:3, FileName:"../pg-grimm.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:5, NReduce:10, NMap:0, FileName:"../pg-metamorphosis.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:5, NReduce:10, NMap:0, FileName:"../pg-metamorphosis.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:5, FileName:"../pg-metamorphosis.txt"}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+report a task: &mr.TaskReply{TaskType:0, TaskId:4, NReduce:10, NMap:0, FileName:"../pg-huckleberry_finn.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:4, FileName:"../pg-huckleberry_finn.txt"}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:0, NReduce:10, NMap:8, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:0, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:0, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:1, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:1, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:1, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:2, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:1, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:2, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:2, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:3, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:2, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:3, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:3, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:4, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:3, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:4, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:4, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:5, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:4, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:5, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:5, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:6, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:5, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:7, NReduce:10, NMap:8, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:6, NReduce:10, NMap:8, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:7, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:6, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:7, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:8, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:6, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:8, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:9, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:7, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:8, NReduce:10, NMap:8, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:9, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:9, NReduce:10, NMap:8, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:9, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:3, TaskId:0, NReduce:0, NMap:0, FileName:""}
+all tasks have completed, now exit
+receive a task: mr.TaskReply{TaskType:3, TaskId:0, NReduce:0, NMap:0, FileName:""}
+all tasks have completed, now exit
+--- map parallelism test: PASS
+coordinator has finished
+*** Starting reduce parallelism test.
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:0, NReduce:10, NMap:0, FileName:"../pg-being_ernest.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:4, NReduce:10, NMap:0, FileName:"../pg-huckleberry_finn.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:4, NReduce:10, NMap:0, FileName:"../pg-huckleberry_finn.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:0, NReduce:10, NMap:0, FileName:"../pg-being_ernest.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:0, NReduce:10, NMap:0, FileName:"../pg-being_ernest.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:5, NReduce:10, NMap:0, FileName:"../pg-metamorphosis.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:0, FileName:"../pg-being_ernest.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:5, NReduce:10, NMap:0, FileName:"../pg-metamorphosis.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:5, NReduce:10, NMap:0, FileName:"../pg-metamorphosis.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:7, NReduce:10, NMap:0, FileName:"../pg-tom_sawyer.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:5, FileName:"../pg-metamorphosis.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:7, NReduce:10, NMap:0, FileName:"../pg-tom_sawyer.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:4, NReduce:10, NMap:0, FileName:"../pg-huckleberry_finn.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:3, NReduce:10, NMap:0, FileName:"../pg-grimm.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:4, FileName:"../pg-huckleberry_finn.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:3, NReduce:10, NMap:0, FileName:"../pg-grimm.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:7, NReduce:10, NMap:0, FileName:"../pg-tom_sawyer.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:7, FileName:"../pg-tom_sawyer.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:6, NReduce:10, NMap:0, FileName:"../pg-sherlock_holmes.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:6, NReduce:10, NMap:0, FileName:"../pg-sherlock_holmes.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:3, NReduce:10, NMap:0, FileName:"../pg-grimm.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:3, FileName:"../pg-grimm.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:1, NReduce:10, NMap:0, FileName:"../pg-dorian_gray.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:1, NReduce:10, NMap:0, FileName:"../pg-dorian_gray.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:6, NReduce:10, NMap:0, FileName:"../pg-sherlock_holmes.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:2, NReduce:10, NMap:0, FileName:"../pg-frankenstein.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:6, FileName:"../pg-sherlock_holmes.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:2, NReduce:10, NMap:0, FileName:"../pg-frankenstein.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:1, NReduce:10, NMap:0, FileName:"../pg-dorian_gray.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:1, FileName:"../pg-dorian_gray.txt"}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+report a task: &mr.TaskReply{TaskType:0, TaskId:2, NReduce:10, NMap:0, FileName:"../pg-frankenstein.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:2, FileName:"../pg-frankenstein.txt"}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:0, NReduce:10, NMap:8, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:0, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:1, NReduce:10, NMap:8, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:1, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:0, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:2, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:2, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:1, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:3, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:1, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:3, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:2, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:4, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:2, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:4, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:3, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:5, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:3, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:5, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:4, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:6, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:4, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:6, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:5, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:7, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:5, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:7, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:7, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:8, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:7, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:8, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:8, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:9, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:8, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:9, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:6, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:6, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:9, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:9, FileName:""}
+receive a task: mr.TaskReply{TaskType:3, TaskId:0, NReduce:0, NMap:0, FileName:""}
+all tasks have completed, now exit
+--- reduce parallelism test: PASS
+receive a task: mr.TaskReply{TaskType:3, TaskId:0, NReduce:0, NMap:0, FileName:""}
+all tasks have completed, now exit
+coordinator has finished
+*** Starting job count test.
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:3, NReduce:10, NMap:0, FileName:"../pg-grimm.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:1, NReduce:10, NMap:0, FileName:"../pg-dorian_gray.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:1, NReduce:10, NMap:0, FileName:"../pg-dorian_gray.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:3, NReduce:10, NMap:0, FileName:"../pg-grimm.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:1, NReduce:10, NMap:0, FileName:"../pg-dorian_gray.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:2, NReduce:10, NMap:0, FileName:"../pg-frankenstein.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:3, NReduce:10, NMap:0, FileName:"../pg-grimm.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:1, FileName:"../pg-dorian_gray.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:2, NReduce:10, NMap:0, FileName:"../pg-frankenstein.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:6, NReduce:10, NMap:0, FileName:"../pg-sherlock_holmes.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:3, FileName:"../pg-grimm.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:6, NReduce:10, NMap:0, FileName:"../pg-sherlock_holmes.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:2, NReduce:10, NMap:0, FileName:"../pg-frankenstein.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:4, NReduce:10, NMap:0, FileName:"../pg-huckleberry_finn.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:2, FileName:"../pg-frankenstein.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:4, NReduce:10, NMap:0, FileName:"../pg-huckleberry_finn.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:6, NReduce:10, NMap:0, FileName:"../pg-sherlock_holmes.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:5, NReduce:10, NMap:0, FileName:"../pg-metamorphosis.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:6, FileName:"../pg-sherlock_holmes.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:5, NReduce:10, NMap:0, FileName:"../pg-metamorphosis.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:4, NReduce:10, NMap:0, FileName:"../pg-huckleberry_finn.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:7, NReduce:10, NMap:0, FileName:"../pg-tom_sawyer.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:4, FileName:"../pg-huckleberry_finn.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:7, NReduce:10, NMap:0, FileName:"../pg-tom_sawyer.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:5, NReduce:10, NMap:0, FileName:"../pg-metamorphosis.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:0, NReduce:10, NMap:0, FileName:"../pg-being_ernest.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:5, FileName:"../pg-metamorphosis.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:0, NReduce:10, NMap:0, FileName:"../pg-being_ernest.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:7, NReduce:10, NMap:0, FileName:"../pg-tom_sawyer.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:0, NReduce:10, NMap:0, FileName:"../pg-being_ernest.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:7, FileName:"../pg-tom_sawyer.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:0, FileName:"../pg-being_ernest.txt"}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:0, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:1, NReduce:10, NMap:8, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:0, NReduce:10, NMap:8, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:1, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:0, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:1, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:2, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:0, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:3, NReduce:10, NMap:8, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:2, NReduce:10, NMap:8, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:3, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:1, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:3, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:4, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:3, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:4, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:2, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:4, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:5, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:2, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:6, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:4, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:5, NReduce:10, NMap:8, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:6, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:5, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:6, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:7, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:5, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:8, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:6, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:8, NReduce:10, NMap:8, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:7, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:7, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:8, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:9, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:7, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:9, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:9, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:9, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:3, TaskId:0, NReduce:0, NMap:0, FileName:""}
+all tasks have completed, now exit
+receive a task: mr.TaskReply{TaskType:3, TaskId:0, NReduce:0, NMap:0, FileName:""}
+all tasks have completed, now exit
+receive a task: mr.TaskReply{TaskType:3, TaskId:0, NReduce:0, NMap:0, FileName:""}
+all tasks have completed, now exit
+receive a task: mr.TaskReply{TaskType:3, TaskId:0, NReduce:0, NMap:0, FileName:""}
+all tasks have completed, now exit
+--- job count test: PASS
+coordinator has finished
+*** Starting early exit test.
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:7, NReduce:10, NMap:0, FileName:"../pg-tom_sawyer.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:2, NReduce:10, NMap:0, FileName:"../pg-frankenstein.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:3, NReduce:10, NMap:0, FileName:"../pg-grimm.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:2, NReduce:10, NMap:0, FileName:"../pg-frankenstein.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:7, NReduce:10, NMap:0, FileName:"../pg-tom_sawyer.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:3, NReduce:10, NMap:0, FileName:"../pg-grimm.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:7, NReduce:10, NMap:0, FileName:"../pg-tom_sawyer.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:2, NReduce:10, NMap:0, FileName:"../pg-frankenstein.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:4, NReduce:10, NMap:0, FileName:"../pg-huckleberry_finn.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:5, NReduce:10, NMap:0, FileName:"../pg-metamorphosis.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:7, FileName:"../pg-tom_sawyer.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:2, FileName:"../pg-frankenstein.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:5, NReduce:10, NMap:0, FileName:"../pg-metamorphosis.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:3, NReduce:10, NMap:0, FileName:"../pg-grimm.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:4, NReduce:10, NMap:0, FileName:"../pg-huckleberry_finn.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:6, NReduce:10, NMap:0, FileName:"../pg-sherlock_holmes.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:3, FileName:"../pg-grimm.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:6, NReduce:10, NMap:0, FileName:"../pg-sherlock_holmes.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:5, NReduce:10, NMap:0, FileName:"../pg-metamorphosis.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:0, NReduce:10, NMap:0, FileName:"../pg-being_ernest.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:5, FileName:"../pg-metamorphosis.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:0, NReduce:10, NMap:0, FileName:"../pg-being_ernest.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:0, NReduce:10, NMap:0, FileName:"../pg-being_ernest.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:4, NReduce:10, NMap:0, FileName:"../pg-huckleberry_finn.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:1, NReduce:10, NMap:0, FileName:"../pg-dorian_gray.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:0, FileName:"../pg-being_ernest.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:1, NReduce:10, NMap:0, FileName:"../pg-dorian_gray.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:6, NReduce:10, NMap:0, FileName:"../pg-sherlock_holmes.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:4, FileName:"../pg-huckleberry_finn.txt"}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:6, FileName:"../pg-sherlock_holmes.txt"}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+report a task: &mr.TaskReply{TaskType:0, TaskId:1, NReduce:10, NMap:0, FileName:"../pg-dorian_gray.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:1, FileName:"../pg-dorian_gray.txt"}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:0, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:1, NReduce:10, NMap:8, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:0, NReduce:10, NMap:8, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:1, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:0, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:1, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:0, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:2, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:3, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:1, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:2, NReduce:10, NMap:8, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:3, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:3, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:4, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:3, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:4, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:4, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:5, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:4, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:5, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:5, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:6, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:7, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:5, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:6, NReduce:10, NMap:8, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:7, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:7, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:8, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:7, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:8, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:8, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:9, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:8, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:9, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:9, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:9, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:2, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:2, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:6, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:6, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:3, TaskId:0, NReduce:0, NMap:0, FileName:""}
+all tasks have completed, now exit
+receive a task: mr.TaskReply{TaskType:3, TaskId:0, NReduce:0, NMap:0, FileName:""}
+all tasks have completed, now exit
+receive a task: mr.TaskReply{TaskType:3, TaskId:0, NReduce:0, NMap:0, FileName:""}
+all tasks have completed, now exit
+coordinator has finished
+--- early exit test: PASS
+*** Starting crash test.
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:7, NReduce:10, NMap:0, FileName:"../pg-tom_sawyer.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:6, NReduce:10, NMap:0, FileName:"../pg-sherlock_holmes.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:4, NReduce:10, NMap:0, FileName:"../pg-huckleberry_finn.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:3, NReduce:10, NMap:0, FileName:"../pg-grimm.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:6, NReduce:10, NMap:0, FileName:"../pg-sherlock_holmes.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:4, NReduce:10, NMap:0, FileName:"../pg-huckleberry_finn.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:3, NReduce:10, NMap:0, FileName:"../pg-grimm.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:7, NReduce:10, NMap:0, FileName:"../pg-tom_sawyer.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:3, NReduce:10, NMap:0, FileName:"../pg-grimm.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:5, NReduce:10, NMap:0, FileName:"../pg-metamorphosis.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:3, FileName:"../pg-grimm.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:5, NReduce:10, NMap:0, FileName:"../pg-metamorphosis.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:1, NReduce:10, NMap:0, FileName:"../pg-dorian_gray.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:1, NReduce:10, NMap:0, FileName:"../pg-dorian_gray.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:0, NReduce:10, NMap:0, FileName:"../pg-being_ernest.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:0, NReduce:10, NMap:0, FileName:"../pg-being_ernest.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:7, NReduce:10, NMap:0, FileName:"../pg-tom_sawyer.txt"}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:2, NReduce:10, NMap:0, FileName:"../pg-frankenstein.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:7, FileName:"../pg-tom_sawyer.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:2, NReduce:10, NMap:0, FileName:"../pg-frankenstein.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:2, NReduce:10, NMap:0, FileName:"../pg-frankenstein.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:2, FileName:"../pg-frankenstein.txt"}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+report a task: &mr.TaskReply{TaskType:0, TaskId:4, NReduce:10, NMap:0, FileName:"../pg-huckleberry_finn.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:4, FileName:"../pg-huckleberry_finn.txt"}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+report a task: &mr.TaskReply{TaskType:0, TaskId:0, NReduce:10, NMap:0, FileName:"../pg-being_ernest.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:0, FileName:"../pg-being_ernest.txt"}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+report a task: &mr.TaskReply{TaskType:0, TaskId:5, NReduce:10, NMap:0, FileName:"../pg-metamorphosis.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:5, FileName:"../pg-metamorphosis.txt"}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:6, NReduce:10, NMap:0, FileName:"../pg-sherlock_holmes.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:6, NReduce:10, NMap:0, FileName:"../pg-sherlock_holmes.txt"}
+report a task: &mr.TaskReply{TaskType:0, TaskId:6, NReduce:10, NMap:0, FileName:"../pg-sherlock_holmes.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:6, FileName:"../pg-sherlock_holmes.txt"}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:0, TaskId:1, NReduce:10, NMap:0, FileName:"../pg-dorian_gray.txt"}
+receive a task: mr.TaskReply{TaskType:0, TaskId:1, NReduce:10, NMap:0, FileName:"../pg-dorian_gray.txt"}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+report a task: &mr.TaskReply{TaskType:0, TaskId:1, NReduce:10, NMap:0, FileName:"../pg-dorian_gray.txt"}
+a map task completed: &mr.ReportArgs{TaskType:0, TaskId:1, FileName:"../pg-dorian_gray.txt"}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:0, NReduce:10, NMap:8, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:0, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:1, NReduce:10, NMap:8, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:1, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:1, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:2, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:1, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:2, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:3, NReduce:10, NMap:8, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:3, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:3, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:4, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:3, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:4, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:4, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:5, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:4, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:5, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:6, NReduce:10, NMap:8, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:6, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:6, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:7, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:6, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:7, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:7, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:8, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:7, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:8, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:8, NReduce:10, NMap:8, FileName:""}
+dispatch a task: &mr.TaskReply{TaskType:1, TaskId:9, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:8, FileName:""}
+receive a task: mr.TaskReply{TaskType:1, TaskId:9, NReduce:10, NMap:8, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:0, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:2, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:2, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:9, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:9, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+report a task: &mr.TaskReply{TaskType:1, TaskId:5, NReduce:10, NMap:8, FileName:""}
+a reduce task completed: &mr.ReportArgs{TaskType:1, TaskId:5, FileName:""}
+receive a task: mr.TaskReply{TaskType:2, TaskId:0, NReduce:0, NMap:0, FileName:""}
+receive a task: mr.TaskReply{TaskType:3, TaskId:0, NReduce:0, NMap:0, FileName:""}
+all tasks have completed, now exit
+receive a task: mr.TaskReply{TaskType:3, TaskId:0, NReduce:0, NMap:0, FileName:""}
+all tasks have completed, now exit
+receive a task: mr.TaskReply{TaskType:3, TaskId:0, NReduce:0, NMap:0, FileName:""}
+all tasks have completed, now exit
+receive a task: mr.TaskReply{TaskType:3, TaskId:0, NReduce:0, NMap:0, FileName:""}
+all tasks have completed, now exit
+receive a task: mr.TaskReply{TaskType:3, TaskId:0, NReduce:0, NMap:0, FileName:""}
+all tasks have completed, now exit
+receive a task: mr.TaskReply{TaskType:3, TaskId:0, NReduce:0, NMap:0, FileName:""}
+all tasks have completed, now exit
+receive a task: mr.TaskReply{TaskType:3, TaskId:0, NReduce:0, NMap:0, FileName:""}
+all tasks have completed, now exit
+receive a task: mr.TaskReply{TaskType:3, TaskId:0, NReduce:0, NMap:0, FileName:""}
+all tasks have completed, now exit
+receive a task: mr.TaskReply{TaskType:3, TaskId:0, NReduce:0, NMap:0, FileName:""}
+all tasks have completed, now exit
+receive a task: mr.TaskReply{TaskType:3, TaskId:0, NReduce:0, NMap:0, FileName:""}
+all tasks have completed, now exit
+receive a task: mr.TaskReply{TaskType:3, TaskId:0, NReduce:0, NMap:0, FileName:""}
+all tasks have completed, now exit
+receive a task: mr.TaskReply{TaskType:3, TaskId:0, NReduce:0, NMap:0, FileName:""}
+all tasks have completed, now exit
+receive a task: mr.TaskReply{TaskType:3, TaskId:0, NReduce:0, NMap:0, FileName:""}
+all tasks have completed, now exit
+receive a task: mr.TaskReply{TaskType:3, TaskId:0, NReduce:0, NMap:0, FileName:""}
+all tasks have completed, now exit
+coordinator has finished
+--- crash test: PASS
+*** PASSED ALL TESTS
